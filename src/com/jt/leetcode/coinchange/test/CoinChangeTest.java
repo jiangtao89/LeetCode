@@ -15,38 +15,38 @@ import java.util.Comparator;
  */
 public class CoinChangeTest {
 
-//    @Test
-//    public void testError() {
-//
-//        CoinChange coinChange = new CoinChange();
-//
-//        int[] coins = new int[]{2};
-//        int amount = 3;
-//
-//        Assert.assertEquals(-1, coinChange.coinChange(coins, amount));
-//    }
-//
-//    @Test
-//    public void testSuccessOne() {
-//
-//        CoinChange coinChange = new CoinChange();
-//
-//        int[] coins = new int[]{2};
-//        int amount = 2;
-//
-//        Assert.assertEquals(1, coinChange.coinChange(coins, amount));
-//    }
-//
-//    @Test
-//    public void testSuccessTwo() {
-//
-//        CoinChange coinChange = new CoinChange();
-//
-//        int[] coins = new int[]{2, 3};
-//        int amount = 5;
-//
-//        Assert.assertEquals(2, coinChange.coinChange(coins, amount));
-//    }
+    @Test
+    public void testError() {
+
+        CoinChange coinChange = new CoinChange();
+
+        int[] coins = new int[]{2};
+        int amount = 3;
+
+        Assert.assertEquals(-1, coinChange.coinChange(coins, amount));
+    }
+
+    @Test
+    public void testSuccessOne() {
+
+        CoinChange coinChange = new CoinChange();
+
+        int[] coins = new int[]{2};
+        int amount = 2;
+
+        Assert.assertEquals(1, coinChange.coinChange(coins, amount));
+    }
+
+    @Test
+    public void testSuccessTwo() {
+
+        CoinChange coinChange = new CoinChange();
+
+        int[] coins = new int[]{2, 3};
+        int amount = 5;
+
+        Assert.assertEquals(2, coinChange.coinChange(coins, amount));
+    }
 
     @Test
     public void testSuccessThree() {
@@ -59,17 +59,17 @@ public class CoinChangeTest {
         Assert.assertEquals(3, coinChange.coinChange(coins, amount));
     }
 
-//
-//    @Test
-//    public void testSuccessFour() {
-//
-//        CoinChange coinChange = new CoinChange();
-//
-//        int[] coins = new int[]{186,419,83,408};
-//        int amount = 6249;
-//
-//        Assert.assertEquals(20, coinChange.coinChange(coins, amount));
-//    }
+
+    @Test
+    public void testSuccessFour() {
+
+        CoinChange coinChange = new CoinChange();
+
+        int[] coins = new int[]{186,419,83,408};
+        int amount = 6249;
+
+        Assert.assertEquals(20, coinChange.coinChange(coins, amount));
+    }
 
     @Test
     public void testSort() {

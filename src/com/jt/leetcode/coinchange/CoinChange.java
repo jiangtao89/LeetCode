@@ -36,7 +36,7 @@ public class CoinChange {
                         if (dp[sum] > dp[i] + 1)
                             dp[sum] = dp[i] + 1;
                     }
-                    displayArray(dp);
+                    // displayArray(dp);
                 }
             }
         }
