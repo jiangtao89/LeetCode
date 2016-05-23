@@ -1,4 +1,4 @@
-package com.jt.leetcode.coinchange.test;
+package com.jt.leetcode.coinchange;
 
 import com.jt.leetcode.coinchange.CoinChange;
 import org.junit.Assert;

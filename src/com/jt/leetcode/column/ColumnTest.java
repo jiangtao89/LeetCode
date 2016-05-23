@@ -1,4 +1,4 @@
-package com.jt.leetcode.column.test;
+package com.jt.leetcode.column;
 
 import com.jt.leetcode.column.Column;
 import org.junit.Assert;

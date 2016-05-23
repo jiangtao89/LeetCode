@@ -1,4 +1,4 @@
-package com.jt.leetcode.tree.test;
+package com.jt.leetcode.tree;
 
 import com.jt.leetcode.tree.TreeNodeStandView;
 import org.junit.Test;

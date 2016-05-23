@@ -1,4 +1,4 @@
-package com.jt.leetcode.firstMissingPositive.test;
+package com.jt.leetcode.firstMissingPositive;
 
 import com.jt.leetcode.firstMissingPositive.FirstMissingPositive;
 import org.junit.Assert;
