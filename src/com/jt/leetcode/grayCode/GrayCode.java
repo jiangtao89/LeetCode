@@ -7,6 +7,7 @@ import java.util.List;
  * Created by jiangtao on 16/5/23.
  * <p>
  * {@link "https://leetcode.com/problems/gray-code/"}
+ * {@link "https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%9B%B7%E7%A0%81"}
  *
  * @author jiang.tao
  * @version 1.0.0
